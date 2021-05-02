@@ -9,9 +9,9 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <div className="cards__items">
-            <CardItem
-            src="images/web1.jpg"
-            text="Para ter uma boa gerência de acessos, PADARIA DELIVERY conta com um sistema de login integrado. "
+           <CardItem
+            src="images/web3.jpg"
+            text="Cadastre seu comércio adicionando sua logo personalizada e tambem seu banner."
             label='Web'
             path='servicos'
             />
@@ -21,6 +21,32 @@ function Cards() {
             label='Web'
             path='servicos'
             />
+          </div>
+          <div className="cards__items">
+           <CardItem
+            src="images/app1.jpg"
+            text="Faça login em seu smartphone e realize pedidos a qualquer momento."
+            label='App'
+            path='servicos'
+            />
+            </div>
+            <div className="cards__items">
+             <CardItem
+            src="images/app2.jpg"
+            text="Personalize seu pedido adicionando uma observação ou optando pela forma de pagamento."
+            label='App'
+            path='servicos'
+            />
+            </div>
+            <div className="cards__items">
+           <CardItem
+           
+            src="images/app3.jpg"
+            text="Crie endereços personalizados de entrega."
+            label='App'
+            path='servicos'
+            />
+            
           </div>
         </div>
       </div>
