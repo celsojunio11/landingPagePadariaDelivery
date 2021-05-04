@@ -29,16 +29,16 @@ function Cards() {
             label='App'
             path='servicos'
             />
-            </div>
-            <div className="cards__items">
+            
+          
              <CardItem
             src="images/app2.jpg"
             text="Personalize seu pedido adicionando uma observação ou optando pela forma de pagamento."
             label='App'
             path='servicos'
             />
-            </div>
-            <div className="cards__items">
+            
+           
            <CardItem
            
             src="images/app3.jpg"
