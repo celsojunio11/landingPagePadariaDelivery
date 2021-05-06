@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/video-1.mp4' autoPlay loop muted />
+            <img src='/videos/fundo1.jpg' autoPlay loop muted />
             <h1>PADARIA DELIVERY</h1>
             <p>Um novo jeito de pedir seu cafézinho!</p>
             <div className='hero-btns'>

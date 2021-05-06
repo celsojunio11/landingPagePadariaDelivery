@@ -1,6 +1,6 @@
 .contato__container {
   padding: 8rem;
-  background: rgb(253, 248, 248, 0.9);
+  background: rgba(253, 248, 248, 0.618);
 }
 
 h1 {
@@ -22,11 +22,11 @@ h1 {
 }
 
 button {
-  background: rgb(253, 248, 248, 0.9);
+  background: rgb(253, 248, 248);
 }
 
 button:hover{
-  background: #a30202;
+  background: #8a0000;
   cursor: pointer;
 }
 

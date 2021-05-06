@@ -13,13 +13,13 @@ function Cards() {
             src="images/web3.jpg"
             text="Cadastre seu comércio adicionando sua logo personalizada e tambem seu banner."
             label='Web'
-            path='servicos'
+            path='services'
             />
              <CardItem
             src="images/web2.jpg"
             text="Tenha um maior controle a partir da tela gerenciar pedidos."
             label='Web'
-            path='servicos'
+            path='services'
             />
           </div>
           <div className="cards__items">
@@ -27,7 +27,7 @@ function Cards() {
             src="images/app1.jpg"
             text="Faça login em seu smartphone e realize pedidos a qualquer momento."
             label='App'
-            path='servicos'
+            path='services'
             />
             
           
@@ -35,7 +35,7 @@ function Cards() {
             src="images/app2.jpg"
             text="Personalize seu pedido adicionando uma observação ou optando pela forma de pagamento."
             label='App'
-            path='servicos'
+            path='services'
             />
             
            
