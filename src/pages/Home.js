@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from './../components/Navbar'
 import HeroSection from './../components/HeroSection'
 import Cards from './../components/Cards'
-import Form from './../components/Form'
+import Contato from './../components/Form'
 import Footer from './../components/Footer'
+import { Demostracao } from '../components/Demostracao';
 
 
 function Home() {
@@ -12,7 +13,8 @@ function Home() {
       <Navbar />
       <HeroSection />
       <Cards />
-      <Form />
+      <Demostracao />
+      <Contato />
       <Footer />
     </>
   );
