@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  background: #fff;
+
+  /*  usamos o grid-template como atalho para
+            grid-template-rows/grid-template-columns */
+  /* grid-template: 20vh 10vh 5vh/3fr 1fr; */
+
+  grid-template-rows: 20vh 70vh 1vh;
+  grid-template-columns: 3fr 1fr;
+
+  /*  usamos grid-gap como um atalho para: 
+            grid-row-gap / grid-column-gap */
+  grid-gap: 20px;
+
+  /* grid-row-gap: 20px;
+  grid-column-gap: 20px; */
+}
+
+header {
+  background: #fff;
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+main {
+  background: #fff;
+}
+
+aside {
+  background: #fff;
+}
+
+footer {
+  background: red;
+  height: 100px;
+}
